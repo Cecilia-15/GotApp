@@ -4,7 +4,6 @@ import { NavBar } from '../components/NavBar'
 import { GotProvider } from "../context/GotProvider";
 import { Houses } from "../pages/Houses";
 import { Mapa } from "../pages/Mapa";
-import { Search } from "../pages/Search";
 import { Fav } from "../pages/Fav"
 
 export const GotRoutes = () => {
@@ -21,8 +20,6 @@ export const GotRoutes = () => {
                 <Route path="/houses" element={<Houses to='/houses'/>}></Route>
 
                 <Route path="/mapa" element={<Mapa to='/mapa'/>}></Route>
-
-                <Route path="/search" element={<Search />}></Route>
 
                 <Route path="/fav" element={<Fav to='/fav'/>}></Route>
             </Routes>
